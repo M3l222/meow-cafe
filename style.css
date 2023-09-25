@@ -1,0 +1,491 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F7F2E8;
+    height: 100%;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+.content {
+    margin-left: 5%;
+    width: 90%;
+    margin-right: 5%;
+}
+
+.logo {
+    width: 191px;
+    height: 169px;
+}
+
+.logo-top { 
+display: flex;  
+align-items: center; 
+gap: 50px;
+}
+
+.navigation-top {margin-left: 5%;color: #3C0E0E;}
+
+.topo {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: #431B1B;
+}
+
+h1 {
+    color: #431B1B;
+    font-size: 80px;
+}
+
+h3 {
+    color: #431B1B;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+h2 {
+    color: #111;
+    font-weight: 100;
+}
+.background-img {
+    float: right;
+    margin-right: 7rem;
+    position: relative;
+    width: 45%;
+    height: 750px;
+}     
+
+.text-header {
+    color: #3C0E0E;
+    font-size: 23px;
+    width: 28rem;
+}
+
+.final-header {
+    margin-left: 3%;
+}
+
+.second-navigation-top {
+    position: absolute;
+    left: 72%;
+    top: 6%;
+    display: flex;
+    gap: 60px;
+}
+.button-delivery {
+    background-color: #3C0E0E;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+}
+
+.meu-botao:hover {
+    background-color: #550404; 
+
+}
+#delivery {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.second-topo {display: flex;gap: 60px;align-items: center;}
+
+#login {
+    color: #3C0E0E;
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-1 {
+    width: 323px;
+    border: 1px solid #F6C7C5;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #F6C7C5, #C27D7A);
+    border-radius: 40px;
+    margin-bottom: 5rem;
+    height: 468px;
+}
+
+.card-2 {
+    width: 323px;
+    border: 1px solid #f1eeed;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #ebe6e6, #541511);
+    border-radius: 40px;
+    margin-bottom: 5rem;
+    height: 468px;
+}
+
+.card-3 {
+    width: 323px;
+    border: 1px solid #541511;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #0A0909, #541511);
+    border-radius: 40px;
+    margin-bottom: 5rem;
+    height: 468px;
+}
+
+.card img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.card-info {
+    margin-top: 20px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card-info h2 {
+    font-size: 35px;
+    color: #fff;
+}
+
+.card-info p {
+    font-size: 16px;
+}
+
+
+.cafe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 12rem;
+    gap: 2rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    height: auto;
+}
+
+h2.subtitle-cafe {
+    color: #3C0E0E;
+    font-weight: 600;
+    font-size: 40px;
+    position: relative;
+}
+.subtitle-cafe::after {
+    position: absolute;
+    top: 125%;
+    left: 15%;
+    content:'';
+    background: #3C0E0E;
+    width: 80px;
+    height: 2px;
+}
+
+a#cafes {font-weight: 700;}
+
+p.cardapio {
+    width: 28rem;
+}
+
+.card-1 img {
+    max-width: 100%; 
+    display: block;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+.cafe-delivery {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: 1s;
+}
+.cafe-delivery:hover {
+    transform: scale(1.080);
+    background-color: #f5f2ef;
+}
+
+a#delivery-cafe {
+    color: #111;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p.cost {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cafes-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6%;
+}
+
+.card-2 img {
+    width: 281px;
+    height: 171px;
+
+}
+.card-3 img {
+    width: 281px;
+    height: 171px;
+
+}
+
+.croissant-elements {
+    margin-left: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.croissant-elements h2 {
+}
+
+.text-croissants h2 {font-size: 40px;color: #3C0E0E;}
+.text-croissants h1 {
+    position: relative;
+}
+.text-croissants h1::after {
+    content: '';
+    top: 90%;
+    left: 5px;
+    background-color: #541511;
+    position: absolute;
+    width: 60px;
+    height: 2px;
+}
+
+.text-croissants {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.text-croissants p {
+    width: 253px;
+    color: #3C0E0E;
+}
+
+a#croissants {
+    font-weight: 600;
+}
+
+.final-header h1 {
+    width: 100px;
+}
+.package-box {
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #F3C7C4, #541511);
+    border-radius: 40px;
+    height: 368px;
+    position: relative;
+    left: 10%;
+    margin-top: 10rem;
+}
+
+.card-package {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.package-box img {
+    width: 589px;
+    height: 379px;
+    filter: brightness(0.9);
+    position: relative;
+    bottom: 70px;
+    z-index: 1;
+}
+
+.brclear {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.package-info {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.package-elements {display: flex;align-items: center;gap: 50px;}
+
+.package-info h2 {
+    font-size: 48px;
+    color: #fff;
+}
+.package-info p {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 60px;
+}
+.package-delivery {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: 1s;
+    width: 281px;
+    height: 41px;
+    margin-left: 115px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 50px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.package-delivery:hover {
+    transform: scale(1.080);
+    background-color: #f5f2ef;
+}
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 175px;
+    width: 938px;
+    height: 339px;
+    margin: 10% 0% 10% 15%;
+}
+
+.element-1 {display: flex;flex-direction: column;width: 320px;height: 313px;}
+
+.element-2 {display: flex;flex-direction: column;gap: 30px;text-align: left;}
+
+.element-1 p {
+    font-size: 20px;
+    color: #4D1D1D;
+    font-weight: 600;
+}
+.element-1 h2 {
+     font-size: 38px;
+     color: #4D1D1D;
+     font-weight: 600;
+}
+
+.element-2 p {
+    font-size: 16px;
+    color: #4D1D1D;
+    width: 300px;
+}
+
+.title-element-2 {
+ width: 305px;
+}
+
+.element-text {
+    width: 323px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.element-2 h4 {
+    color: #4d1d1d;
+}
+
+@media only screen and (max-width: 765px){
+    .background-img {
+        display: none
+    }
+    .cafes-cards {
+        display: flex;
+        flex-direction: column
+    }
+    .second-topo {
+        display: none
+    }
+    .navigation-top {
+        margin-left: 0
+    }
+    .topo a {
+        display: none;
+    }
+    .cafe {
+        margin-top: 5%
+    }
+    
+    p.cardapio,.text-header {
+        width: 16rem
+    }
+    .card-3 {
+        margin-bottom: 0
+    }
+    .croissant-elements {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .croissants img {
+        width: 270px
+    }
+    .text-croissants {
+        width: 16rem
+    }
+    .text-croissants h1 {
+        font-size: 54px;
+    }
+    .package-box img {
+        display: none
+    }
+    .package-elements {
+        display: flex;
+        flex-direction: column;
+    }
+    .package-info p {
+        margin-left: 25px;
+    }
+    .package-info h2 {
+        font-size: 25px;
+    }
+    .package-box {
+        margin-top: 0;
+        height: 350px;
+    }
+    .package-info {
+        width: 230px;
+        height: 210px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 55px;
+        gap: 75px;
+    }
+    .package-delivery {
+        margin-left: 0;
+        width: 185px;
+    }
+    .about-us {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 10rem;
+        gap: 40px;
+        justify-content: center;
+        align-items: flex-start;
+        margin-bottom: 10rem;
+    }
+}
