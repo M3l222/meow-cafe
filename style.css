@@ -485,6 +485,7 @@ a#croissants {
         margin-top: 10rem;
         gap: 40px;
         justify-content: center;
+        width: 20rem;
         align-items: flex-start;
         margin-bottom: 10rem;
     }
